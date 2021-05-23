@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    border: 3px solid midnightblue;
+    height: 40px;
+}
+
+button {
+    padding: 10px;
+    color:midnightblue;
+    border: 3px solid midnightblue;
+    background-color: whitesmoke;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+button:active {
+    background-color: midnightblue;
+    color: whitesmoke;
+}
