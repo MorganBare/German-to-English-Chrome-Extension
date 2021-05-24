@@ -11,19 +11,23 @@ input {
     box-sizing: border-box;
     border: 3px solid midnightblue;
     height: 40px;
+    margin-bottom: 10px;
 }
 
 button {
     padding: 10px;
     color:midnightblue;
     border: 3px solid midnightblue;
-    background-color: whitesmoke;
+    background-color:white;
     font-weight: bold;
     font-size: 20px;
-    margin-top: 10px;
 }
 
 button:active {
     background-color: midnightblue;
     color: whitesmoke;
+}
+
+li {
+    list-style-type: none;
 }
