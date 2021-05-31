@@ -2,7 +2,8 @@ body {
     margin: 0;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    min-width: 500px;
+    width: 500px;
+    background-color: #fff1e1;
 }
 
 input {
@@ -10,31 +11,51 @@ input {
     padding-left: 10px;
     padding-right: 10px;
     box-sizing: border-box;
-    border: 3px solid midnightblue;
+    border: 3px solid #1d3c45;
     height: 40px;
     margin-bottom: 10px;
+    background-color: #fff1e1;
 }
 
 button {
-    padding: 10px;
-    color:midnightblue;
-    border: 3px solid midnightblue;
-    background-color:white;
+    padding: 8px;
+    color:#1d3c45;
+    border: 3px solid #1d3c45;
+    background-color:#fff1e1;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 button:active {
-    background-color: midnightblue;
-    color: whitesmoke;
+    background-color: #1d3c45;
+    color: #fff1e1;
 }
 
 li {
     list-style-type: none;
     margin-top: 5px;
     font-weight: bold;
+    font-size: 16px;
+    color: #1d3c45;
 }
 
-ul {
+#ul-el, #ul-el2 {
     padding-left: 0;
+}
+
+.word-container {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0px 10px 0px;
+}
+
+fieldset {
+    min-width: 225px;
+    min-height: 100px;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 18px;
+    color: #1d3c45;
 }
