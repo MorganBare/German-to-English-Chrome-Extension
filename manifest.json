@@ -4,6 +4,6 @@
     "name": "German Translation",
     "action": {
         "default_popup": "index.html",
-        "default_icon": "german-flag.png"
+        "default_icon": "images/german-flag.png"
     }
 }
