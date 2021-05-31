@@ -6,5 +6,5 @@ This chrome extension lets you easily translate German words into English using 
 
 ### Requirements
 
-..* You will need to add your own API key from [DeepL](https://www.deepl.com/docs-api/introduction/) into the index.js file in order to use this chrome extension.
+- You will need to add your own API key from [DeepL](https://www.deepl.com/docs-api/introduction/) into the index.js file in order to use this chrome extension.
 
