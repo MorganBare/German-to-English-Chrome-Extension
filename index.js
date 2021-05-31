@@ -33,7 +33,7 @@ function renderEnglishWords(words) {
 ulEL2.innerHTML = listItems
 }
 
-function stringToList(word) {
+function updateEnglishWords(word) {
     englishWords.push(word)
     localStorage.setItem("englishWords", JSON.stringify(englishWords))
     renderEnglishWords(englishWords)
@@ -59,6 +59,6 @@ inputBtn.addEventListener("click", function(){
 function translateToEnglish(word) {
     fetch(`https://api-free.deepl.com/v2/translate?auth_key=API_KEY_GOES_HERE&text=${word}&source_lang=DE&target_lang=EN`)
       .then((response) => response.json())
-      .then((data) => stringToList(data.translations[0].text))
+      .then((data) => updateEnglishWords(data.translations[0].text))
   }
 
