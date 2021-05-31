@@ -19,16 +19,16 @@ input {
 
 button {
     padding: 8px;
-    color:#1d3c45;
+    color:white;
     border: 3px solid #1d3c45;
-    background-color:white;
+    background-color:#1d3c45;
     font-weight: bold;
     font-size: 18px;
 }
 
 button:active {
-    background-color: #1d3c45;
-    color: white;
+    background-color: white;
+    color: #1d3c45;
 }
 
 li {
