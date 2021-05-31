@@ -1,5 +1,7 @@
 # German to English Google Chrome Extension
 
+![alt text](images/ScreenShot.png)
+
 ## Introduction
 
 This chrome extension lets you easily translate German words into English using an API from [DeepL](https://www.deepl.com/docs-api/introduction/) 
