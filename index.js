@@ -57,7 +57,7 @@ inputBtn.addEventListener("click", function(){
 
 // translate German word to english using DeepL API
 function translateToEnglish(word) {
-    fetch(`https://api-free.deepl.com/v2/translate?auth_key=API_KEY_GOES_HERE&text=${word}&source_lang=DE&target_lang=EN`)
+    fetch(`https://api-free.deepl.com/v2/translate?auth_key=47dedaf2-e44b-02f6-bcb4-688bd4a65645:fx&text=${word}&source_lang=DE&target_lang=EN`)
       .then((response) => response.json())
       .then((data) => updateEnglishWords(data.translations[0].text))
   }
